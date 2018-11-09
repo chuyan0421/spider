@@ -1,0 +1,26 @@
+[INFO  - 2018-11-09T02:49:40.089Z] GhostDriver - Main - running on port 51806
+[INFO  - 2018-11-09T02:49:42.196Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-09T02:49:42.196Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.customHeaders:  - {}
+[INFO  - 2018-11-09T02:49:42.196Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-09T02:49:42.196Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1ba90200-e3ca-11e8-99b8-5f7f4a31870a
+[ERROR - 2018-11-09T02:50:03.107Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.onError - msg: ReferenceError: Can't find variable: jsonp202
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-09T02:50:03.109Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.onError - stack:
+  (anonymous function) (https://qrlogin.taobao.com/qrcodelogin/qrcodeLoginCheck.do?lgToken=392401a02c4dacc3d64558947cecdd9d&defaulturl=http%3A%2F%2Flist.tmall.com%2Fsearch_product.htm%3Fspm%3Da220m.1000858.1000724.7.493357539B9vpw&_ksTS=1541731799243_201&callback=jsonp202:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-09T02:50:03.118Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.onError - msg: ReferenceError: Can't find variable: jsonp216
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-09T02:50:03.118Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.onError - stack:
+  (anonymous function) (https://qrlogin.taobao.com/qrcodelogin/qrcodeLoginCheck.do?lgToken=96b6856445ec3a4d07e0f43f8f7f229d&defaulturl=http%3A%2F%2Flist.tmall.com%2Fsearch_product.htm%3Fspm%3Da220m.1000858.1000724.7.493357539B9vpw&_ksTS=1541731800188_215&callback=jsonp216:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-09T02:50:03.510Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.onError - msg: ReferenceError: Can't find variable: jsonp230
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-09T02:50:03.510Z] Session [1ba90200-e3ca-11e8-99b8-5f7f4a31870a] - page.onError - stack:
+  (anonymous function) (https://qrlogin.taobao.com/qrcodelogin/qrcodeLoginCheck.do?lgToken=392401a02c4dacc3d64558947cecdd9d&defaulturl=http%3A%2F%2Flist.tmall.com%2Fsearch_product.htm%3Fspm%3Da220m.1000858.1000724.7.493357539B9vpw&_ksTS=1541731801252_229&callback=jsonp230:1)
+
+  phantomjs://platform/console++.js:263 in error

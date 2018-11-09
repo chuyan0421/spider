@@ -7,6 +7,46 @@
 
 from scrapy import signals
 
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from scrapy.http import HtmlResponse
+import time
+
+class JavaScriptMiddleware(object):
+    def process_request(self, request, spider):
+        if spider.name == "tianmao":
+            html = ""
+            # driver = webdriver.PhantomJS(executable_path=r"E:\PycharmProjects\phantomjs-2.1.1-windows\bin\phantomjs.exe")
+            # options = Options()
+            # options.headless = True
+
+            driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
+            driver.get(request.url)
+            time.sleep(10)
+            driver.find_element_by_xpath('//*[@class="sn-container"]/p/a[1]').click()
+            print("please log in , and input message in search box ")
+            print("waiting...")
+            time.sleep(60)
+            # driver.find_element_by_xpath('//*[@class="s-combobox-input-wrap"]/input').send_keys('茶')
+            # time.sleep(10)
+            # driver.find_element_by_xpath('//button[contains(.,"搜索")]').click()
+            # time.sleep(10)
+            # driver.find_element_by_xpath('//*[@class="main"]/div[4]/a[6]').click
+            # driver.find_element_by_xpath('/html/body/div[1]/div[2]/div[3]/div[1]/div[4]/a[6]').click
+            # print("please click 店铺")
+            # time.sleep(20)
+            html = html + driver.page_source
+            print('访问'+request.url)
+            for i in range(1, 4):
+                # next_page = driver.find_element_by_xpath('//a[contains(.,"下一页>>")]')
+                print('click next page')
+                time.sleep(30)
+                # next_page.click()
+
+                html = html + driver.page_source
+                print('page number: ' + str(i+1))
+            return HtmlResponse(driver.current_url, body=html, encoding="utf-8", request=request)
+
 
 class TianmaoSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
