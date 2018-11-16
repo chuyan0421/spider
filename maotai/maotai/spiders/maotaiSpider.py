@@ -60,7 +60,7 @@ class MaotaiSpider(scrapy.Spider):
         item['net_weight'] = re.sub(r'：', '', text1[4])  # 净含量
         item['general_agency'] = re.sub(r'：', '', text1[5])  # 总代理
         item['package'] = re.sub(r'：', '', text1[6])  # 包装
-        item['price'] = ''  # 详细说明
+        item['price'] = ''  # 价格
 
         item['sku'] = hashlib.sha1(to_bytes(item['name'])).hexdigest()
         item['images_urls_local'] = 'http://192.168.33.55/pics/' + item['sku'] + '/1.jpg'

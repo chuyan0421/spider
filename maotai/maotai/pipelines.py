@@ -104,7 +104,7 @@ class MaotaiMysqlPipeline(object):
     def process_item(self, item, spider):
         sku = item['sku']
         url = item['url']
-        images_urls = ''.join(item['images_urls'])  ###convert list to string
+        images_urls = ','.join(item['images_urls'])  ###convert list to string
         images_urls_local = item['images_urls_local']
         slogan = item['slogan']
         name = item['name']

@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/maotai" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/emaotai" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tianmao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gujing" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (scrapyEnv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
