@@ -2,13 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8728df3-5eef-4dd2-a09e-05f305c5dc91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gujing/gujing/spiders/gujingSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maotai/maotai/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/maotai/maotai/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maotai/maotai/spiders/maotaiSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/maotai/maotai/spiders/maotaiSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianmao/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tianmao/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tianmao/tianmao/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/tianmao/tianmao/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171013144845_31209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171013150047_94554.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171013161544_98654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171018145239_55085.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020145922_80670.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020151824_57796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020153934_41477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020154551_35895.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020161907_96142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020164000_82056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020164714_94974.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020165133_83424.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171020165744_46721.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20171023133221_19675.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180606115741_80759.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180606115854_45115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180606115920_29651.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180606120049_96583.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180724112135_25851.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180724112241_85637.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180724112320_83404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180724112350_94224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180724112634_71699.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180724112744_10148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180815162015_85731.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180815162343_33805.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180815170010_54495.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180821172147_98850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180903171255_73470.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20180903171447_63842.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20181023172031_80162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20181023172126_55344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gujing/wineSpider/20181023172153_29464.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gujing/gujing/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
@@ -82,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gujing/gujing/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="-593">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -135,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="113" />
+    <option name="x" value="403" />
+    <option name="y" value="152" />
     <option name="width" value="1511" />
     <option name="height" value="814" />
   </component>
@@ -226,8 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="308" width="1511" height="814" extended-state="0" />
-    <editor active="true" />
+    <frame x="370" y="240" width="1511" height="814" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21249151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -424,6 +449,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gujing/gujing/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gujing/gujing/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -431,13 +463,6 @@
           <folding>
             <element signature="e#195#248#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gujing/gujing/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
         </state>
       </provider>
     </entry>
