@@ -44,13 +44,13 @@ class MaotaiImagesPipeline(ImagesPipeline):
 
         settings = get_project_settings()
         storage = settings.get('IMAGES_STORE')
-        subdir = storage+'/maotai/'+item['sku']
+        subdir = storage+'/emaotai/'+item['sku']
 
         new_paths = []
         # shutil.rmtree(subdir)
         os.mkdir(subdir)
         for x in image_paths:
-            os.rename(storage +'/'+ x, subdir+'/'+x)
+            os.rename(storage +'/'+ x, subdir+'/1.jpg')
             # new_paths.append('/usr/local/webserver/nginx/html/pics/'+item['sku']+'/'+x)
 
         # item['images_urls_local'] = new_paths

@@ -19,7 +19,9 @@ NEWSPIDER_MODULE = 'emaotai.spiders'
 #USER_AGENT = 'emaotai (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
+
+IMAGES_STORE = 'e:\wineSpider'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -57,10 +59,10 @@ DOWNLOAD_DELAY = 0.5
 #    'emaotai.middlewares.EmaotaiDownloaderMiddleware': 543,
 #}
 
-DOWNLOADER_MIDDLEWARES = {
-    'emaotai.middlewares.JavaScriptMiddleware': 543,
-    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-}
+# DOWNLOADER_MIDDLEWARES = {
+#     'emaotai.middlewares.JavaScriptMiddleware': 543,
+#     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+# }
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html

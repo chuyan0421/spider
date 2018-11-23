@@ -13,18 +13,25 @@ import time
 
 class JavaScriptMiddleware(object):
     def process_request(self, request, spider):
-        if spider.name == "emaotai":
+        # if spider.name == "emaotai":
+        if request.meta['type'] == "page":
             html = ""
-            print("PhantomJs is starting...")
-            driver = webdriver.PhantomJS(executable_path=r"E:\PycharmProjects\phantomjs-2.1.1-windows\bin\phantomjs.exe")
+            # print("PhantomJs is starting...")
+            # driver = webdriver.PhantomJS(executable_path=r"E:\PycharmProjects\phantomjs-2.1.1-windows\bin\phantomjs.exe")
+            # driver.get(request.url)
+            driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
             driver.get(request.url)
-            time.sleep(0.5)
+            time.sleep(10)
             html = html + driver.page_source
             print("访问"+request.url)
-            for i in range(1,4):
-                next_page = driver.find_element_by_xpath("//a[contains(.,'下一页')]")
-                next_page.click()
-                time.sleep(0.5)
+            for i in range(1, 4):
+                next_page = driver.find_elements_by_xpath("//a[contains(.,'下一页')]")
+                # 能找到元素，点击click，否则退出循环
+                if len(next_page) > 0:
+                    next_page[0].click()
+                else:
+                    break
+                time.sleep(10)
                 html = html + driver.page_source
             return HtmlResponse(driver.current_url, body=html, encoding="utf-8", request=request)
 
