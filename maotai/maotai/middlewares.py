@@ -6,6 +6,14 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from maotai.resource import PROXIES
+import random
+
+
+class RandomProxy(object):
+    def process_request(self, request, spider):
+        proxy = random.choice(PROXIES)
+        request.meta['proxy'] = 'http://%s' % proxy
 
 
 class MaotaiSpiderMiddleware(object):

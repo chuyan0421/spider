@@ -10,8 +10,8 @@ class MaotaiSpider(scrapy.Spider):
     custom_settings = {
         'ITEM_PIPELINES': {
             'maotai.pipelines.WinePipeline': 10,
-            'maotai.pipelines.MaotaiImagesPipeline': 100,
-            'maotai.pipelines.MaotaiCsvPipeline': 200,
+            # 'maotai.pipelines.MaotaiImagesPipeline': 100,
+            # 'maotai.pipelines.MaotaiCsvPipeline': 200,
             # 'maotai.pipelines.MaotaiMysqlPipeline': 300
         },
     }
