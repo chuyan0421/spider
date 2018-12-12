@@ -67,7 +67,7 @@ class eMaotaiSpider(scrapy.Spider):
         # name = response.xpath('//*[@class="forjs_item"]/div/a/div[@class="pro-name ellipsis "]/text()').extract()
         # price = response.xpath('//*[@class="forjs_item"]/div/a/span/text()').extract()
 
-        fd = open('E:/wineSpider/maotaiprice.csv', 'a', encoding='utf-8')
+        fd = open('E:/wineSpider/maotaiprice.', 'a', encoding='utf-8')
         print(len(products))
         for product in products:
             item = EmaotaiItem()
