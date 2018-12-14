@@ -8,12 +8,23 @@
 from scrapy import signals
 from maotai.resource import PROXIES
 import random
+import pymysql as pq
+from scrapy.downloadermiddlewares.retry import RetryMiddleware
 
 
 class RandomProxy(object):
     def process_request(self, request, spider):
+        # conn = pq.connect(host='192.168.33.55', user='root', passwd='', db='ir', charset='utf8')
+        # cur = conn.cursor()
+        # cur.execute('SELECT ipport FROM ippool ORDER BY rand() LIMIT 1;')
+        # result = cur.fetchone()
+        # cur.close()
+        # conn.close()
+        # proxy = result[0]
+        # print('ip proxy: ', proxy)
         proxy = random.choice(PROXIES)
-        request.meta['proxy'] = 'http://%s' % proxy
+        print(proxy)
+        # request.meta['proxy'] = 'http://%s' % proxy
 
 
 class MaotaiSpiderMiddleware(object):

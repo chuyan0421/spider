@@ -57,8 +57,12 @@ IMAGES_STORE = 'e:\wineSpider'
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
    # 'maotai.middlewares.MaotaiDownloaderMiddleware': 543,
-   #  'maotai.middlewares.RandomProxy':400
+    'maotai.middlewares.RandomProxy': 400,
+    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 500
 }
+
+#scrapy.downloadermiddlewares.retry.RetryMiddleware
+RETRY_TIMES = 10
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
